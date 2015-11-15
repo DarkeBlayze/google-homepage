@@ -1,0 +1,124 @@
+li {
+    display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px
+	
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+a  [href="#"] {
+	text-decoration: none;
+}
+footer {
+	line-height: 40px;
+	Bottom: 0px;
+    width: 100%;
+    height: 0px;
+    font-family: arial, sans-serif;
+	font-size: 13px;
+	background-color: #eeeeee;
+	border-top-style: solid;
+	border-color: #e4e4e4;
+    border-width: 1px;
+	padding: 0px 0px 0px 17px;
+	bottom: 0px;
+	position: fixed;
+	display: block;
+	height: 2.8em;
+} 
+header {
+	font-family: arial, sans-serif;
+	font-size: 13px;	
+	margin: 7px 15px 0px 0px;
+	color: black;
+	
+}
+.RightLinks {
+	margin: 0px 0px 0px -50px;
+	margin-right: 20px;
+	margin-left: 50px;
+	float: right;
+	padding-left: 27px;
+	color: #757575;
+	
+}
+.LeftLinks {
+	white-space: nowrap;
+	margin: 0px 20px 0px 0px;
+	margin: 0px;
+	float: left;
+	padding-left: 27;
+	color: #757575;
+}
+input[type="text"] {
+	width: 534px;
+	height: 34px;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+	display: inline-block;
+}
+input[type="submit"] {
+	border-style: none;
+	font-size: 13px;
+	color: #757575;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	height: 37px;
+	Margin-left: 2px;
+	margin-right: 2px;
+}
+input[type="submit"]:hover {
+	color: black;
+	border: 1px;
+	border-style: solid;
+	border-color: #C6C6C6;
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.33);
+	-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.33);
+	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.33);
+}
+br {
+	padding-top: 18px;
+}
+.google {
+	margin-top: 150px;
+	width: 270px;
+	height: 100px;
+	display: block;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+	color: #757575";
+} 
+body {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -2.8em;
+}
+button[type="button"] {
+	background-color: #4285F4;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	border: 1px;
+	font-size: small;
+	padding: 5px;
+	
+}
+apps {
+	max-height: 1px;
+	max-width: 1px;	
+	display: block;
+	margin: 0;
+}
