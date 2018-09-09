@@ -53,24 +53,65 @@ header {
 	padding-left: 27;
 	color: #757575;
 }
+
+
+
 input[type="text"] {
-	width: 534px;
-	height: 34px;
-	border-style: solid;
-	border-width: 1px;
-	font-size: 16px;
-	font-family: arial, sans-serif;
-	display: inline-block;
+    border: medium none;
+    padding: 5px;
+    margin 5px;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    z-index: 6;
+    left: 10px;
+    outline: currentcolor none medium;
+    color: #000;
+    line-height: 34px;
+    height: 34px !important;
+    unicode-bidi: isolate;
+    font-family: arial, sans-serif;
 }
+
+
+.search {
+    padding-bottom: 2px;
+    padding-top: 3px;
+    margin-top: -3px;
+    width: 632px;
+    position: relative;
+    line-height: 0;
+    overflow: visible;
+    white-space: nowrap;
+    max-width: 584px;
+    margin: -1px 0px 1px;
+    background-color: #fff;
+    height: 44px;
+    vertical-align: top;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 #0003, 0 0 0 1px #0000001a;
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+} 
+
 input[type="submit"] {
 	border-style: none;
 	font-size: 13px;
 	color: #757575;
 	font-family: arial, sans-serif;
 	font-weight: bold;
-	height: 37px;
-	Margin-left: 2px;
-	margin-right: 2px;
+	height: 36px;
+	Margin: 11px 4px;
+    line-height: 27px;
+    background-image: -moz-linear-gradient(top, #f5f5f5, #f1f1f1);
+    -moz-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    cursor: default;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
 }
 input[type="submit"]:hover {
 	color: black;
